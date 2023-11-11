@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirior - Wooden Framed</title>
+    <link rel="stylesheet" href="/Css/wooden.css">
+
+    <!-- animate.css for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- jQuery 3.6.0 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <!-- Bootstrap 5.0.2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap 5.0.2 JS (with jQuery) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Remixicon Font -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/imgs/logo.png" type="image/x-icon">
+
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Waypoints library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+    <!-- Font Awesome (Note: Integrity value is missing) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- jQuery UI 1.13.2 CSS -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+    <!-- jQuery UI 1.13.2 JS -->
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Header & Navigation -->
+
+    <div class="chat">
+        <i class="ri-chat-1-fill"></i>
+    </div>
+
+
+    <a href="#nav" class="chat" id="goUp">
+        <i class="ri-arrow-up-double-line"></i>
+    </a>
+
+    <header>
+        <div class="chat-box">
+            <div class="chat-header">
+                <h4>Miroi'r</h4>
+                <i class="ri-whatsapp-line whatsapp"></i>
+            </div>
+            <div class="chat-text-up">
+                <div class="chat-text">
+                    Hello, <br>
+                    How can i help you?
+                </div>
+            </div>
+            <a href="https://web.whatsapp.com/" target="_blank" class="chat-msg">
+                <div class="msg">Chat on whatsapp</div>
+            </a>
+        </div>
+        <div class="cursor"></div>
+        <div class="sup-up">
+            <nav class="navbar navbar-expand-lg navbar-dark" id="uper-navi">
+                <div class="container-fluid" id="up-cont-navi">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active bold visi" aria-current="page" href="/home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active bold visi" href="/AboutUs.html">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link bold dropdown-toggle active visi" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Mirror Category
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item visi" href="/livingroom.html">Living room mirrors</a>
+                                    </li>
+                                    <li><a class="dropdown-item visi" href="/dressing.html">Dressing room mirrors</a>
+                                    </li>
+                                    <li><a class="dropdown-item visi" href="/BedroomMirror.html">Bedroom room
+                                            mirrors</a></li>
+                                    <li><a class="dropdown-item visi" href="/BathroomMirror.html">Bathroom room
+                                            mirrors</a></li>
+                                    <li><a class="dropdown-item visi" href="/garden.html">Garden mirrors</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link bold visi dropdown-toggle active" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Material Category
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li class="visi"><a class="dropdown-item visi" href="/WoodenFramed.html">Wooden
+                                            framed</a></li>
+                                    <li class="visi"><a class="dropdown-item visi" href="/MetalMirror.html">Metal
+                                            bordered</a></li>
+                                    <li class="visi"><a class="dropdown-item visi" href="/LedMirror.html">LED
+                                            mirrors</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item visi">
+                                <a class="nav-link bold active visi" style="z-index: 111;"
+                                    href="/home.html#show-loca">Location</a>
+                            </li>
+                            <li class="nav-item visi">
+                                <a class="nav-link bold active visi" href="/Contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <form id="search">
+                            <div class="search visi">
+                                <i class="ri-search-2-line"></i>
+                                <input type="search" class="visi" name="" id="auto"
+                                    placeholder="Search by room, style, and color">
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <div class="up">
+                <img src="/imgs/logo.png" id="s">
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light sticky" id="nav">
+            <div class="container-fluid" id="head">
+                <a class="navbar-brand" href="#" id="logo"><img src="/imgs/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <span class="nav-link web-des" href="#">
+                                <div class="phone-des">
+                                    <span>Phone</span>
+                                    <i class="ri-phone-fill">
+                                    </i>
+                                </div>
+                                <span class="val">+92 3140314548</span>
+                            </span>
+                        </li>
+                        <li class="nav-item">
+                            <span class="nav-link web-des" href="#">
+                                <div class="phone-des">
+                                    <span>Address</span>
+                                    <i class="ri-map-pin-line"></i>
+                                </div>
+                                <span class="val" id="Address">D-4,Block H, NN,Karachi.</span>
+                            </span>
+                        </li>
+                    </ul>
+                    <form id="search">
+                        <div class="search visi">
+                            <i class="ri-search-2-line"></i>
+                            <input type="search" class="visi" name="" id="auto_one"
+                                placeholder="Search by room, style, and color">
+
+                        </div>
+                    </form>
+                    <a href="/GetAQuote.html" id="qoute">Get a Qoute <i class="ri-arrow-right-double-line"></i></a>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark" id="navi">
+            <div class="container-fluid sticky" id="cont-navi">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active bold" aria-current="page" href="/home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active bold" href="/AboutUs.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link bold dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Mirror Category
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/livingroom.html">Living room mirrors</a></li>
+                                <li><a class="dropdown-item" href="/dressing.html">Dressing room mirrors</a></li>
+                                <li><a class="dropdown-item" href="/BedroomMirror.html">Bedroom room mirrors</a></li>
+                                <li><a class="dropdown-item" href="/BathroomMirror.html">Bathroom room mirrors</a></li>
+                                <li><a class="dropdown-item" href="/garden.html">Garden mirrors</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link bold dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Material Category
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/WoodenFramed.html">Wooden framed</a></li>
+                                <li><a class="dropdown-item" href="/MetalMirror.html">Metal bordered</a></li>
+                                <li><a class="dropdown-item" href="/LedMirror.html">LED mirrors</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active bold" href="/gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active bold" href="/Login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active bold" href="/SignUp.html">Sign Up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active bold" href="/home.html#show-loca">Location</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active bold" href="/Contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- hero  -->
+
+        <div class="hero">
+            <div class="hero-box">
+                <h2><span id="l">W</span>ooden, Frame Mirror's</h2>
+                <a href="#row1">Shop now</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main  -->
+
+    <main>
+        <section>
+            <div class="row" id="row1">
+                <div class="card product" id="pro1">
+                    <div class="img">
+                        <img src="/imgs/wood1.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">hand-carved modern wooden frame mirror. Product Dimensions : 30.5 cm H x
+                            25.4 cm W <span>RS.8,400</span></p>
+                        <div class="buy-links">
+                            <a href="/CheckOut.html" class="shop full">PKR. 7,100</a>
+                            <a href="/ProductInfo/wood1.pdf" target="_blank" class="shop down"><i class="fa-solid fa-download"
+                                    style="color: #ffffff;"></i>Downlaod</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card product" id="pro2">
+                    <div class="img">
+                        <img src="/imgs/wood2.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Black rectangle beaded wooden frame mirror. Product Dimensions: 30.5 cm H x
+                            25.4 cm W <span>RS.7,600</span></p>
+                        <div class="buy-links">
+                            <a href="/CheckOut.html" class="shop full">PKR. 6,000</a>
+                            <a href="/ProductInfo/wood2.pdf" target="_blank" class="shop down"><i class="fa-solid fa-download"
+                                    style="color: #ffffff;"></i>Downlaod</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card product" id="pro3">
+                    <div class="img">
+                        <img src="/imgs/wood3.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Black octagon beaded wooden frame mirror. Product Dimensions: 30.5 cm H x
+                            25.4 cm W <span>RS.8,650</span>
+                        </p>
+                        <div class="buy-links">
+                            <a href="/CheckOut.html" class="shop full">PKR. 4,600</a>
+                            <a href="/ProductInfo/wood3.pdf" target="_blank" class="shop down"><i class="fa-solid fa-download"
+                                    style="color: #ffffff;"></i>Downlaod</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="row2">
+                <div class="card product" id="pro4">
+                    <div class="img">
+                        <img src="/imgs/wood4.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Black round wooden framed mirror. Product Dimensions : 73.7 cm H x 63.5 cm
+                            W x 1.8 cm <span>RS.9,200</span></p>
+                        <div class="buy-links">
+                            <a href="/CheckOut.html" class="shop full">PRK. 7,200</a>
+                            <a href="/ProductInfo/wood4.pdf" target="_blank" class="shop down"><i class="fa-solid fa-download"
+                                    style="color: #ffffff;"></i>Downlaod</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card product" id="pro5">
+                    <div class="img">
+                        <img src="/imgs/wood5.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">This industrial-inspired design is sure to catch the eye. A thin metal
+                            frame adds extra detail whilst the sleek round frame keeps things.</p>
+                        <div class="buy-links">
+                            <a href="/CheckOut.html" class="shop full">PKR. 4,550</a>
+                            <a href="/ProductInfo/wood5.pdf" target="_blank" class="shop down"><i class="fa-solid fa-download"
+                                    style="color: #ffffff;"></i>Downlaod</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card product" id="pro6">
+                    <div class="img">
+                        <img src="/imgs/wood6.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Round wooden mirror framed .Product Dimensions : 73.7 cm H x 63.5 cm W x
+                            1.8 cm <span>RS.9,350</span></p>
+                        <div class="buy-links">
+                            <a href="/CheckOut.html" class="shop full">PKR. 7,200</a>
+                            <a href="/ProductInfo/wood6.pdf" target="_blank" class="shop down"><i class="fa-solid fa-download"
+                                    style="color: #ffffff;"></i>Downlaod</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="row3">
+                <div class="card product" id="pro7">
+                    <div class="img">
+                        <img src="/imgs/wood7.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">white full length wooden framed. Product Dimensions : 121.9 cm H x 2.5 cm W
+                            x 45.7 cm <span>Rs.8,000</span>
+                        </p>
+                        <div class="buy-links">
+                            <a href="/CheckOut.html" class="shop full">PRK. 7,800</a>
+                            <a href="/ProductInfo/wood7.pdf" target="_blank" class="shop down"><i class="fa-solid fa-download"
+                                    style="color: #ffffff;"></i>Downlaod</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card product" id="pro8">
+                    <div class="img">
+                        <img src="/imgs/wood8.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">full length rectangle wall mirror. Product Dimensions : 121.9 cm H x 2.5 cm
+                            W x 45.7 cm <span>RS.8,400</span></p>
+                        <div class="buy-links">
+                            <a href="/CheckOut.html" class="shop full">PKR. 6,250</a>
+                            <a href="/ProductInfo/wood8.pdf" target="_blank" class="shop down"><i class="fa-solid fa-download"
+                                    style="color: #ffffff;"></i>Downlaod</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card product" id="pro9">
+                    <div class="img">
+                        <img src="/imgs/wood9.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Classic rectangle wooden framed mirror. full length mirror. product
+                            dimension W x 64 in H <span>RS.8,950</span></p>
+                        <div class="buy-links">
+                            <a href="/CheckOut.html" class="shop full">PKR. 8,300</a>
+                            <a href="/ProductInfo/wood9.pdf" target="_blank" class="shop down"><i class="fa-solid fa-download"
+                                    style="color: #ffffff;"></i>Downlaod</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="row4">
+                <div class="card product" id="pro10">
+                    <div class="img">
+                        <img src="/imgs/wood10.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">dark brown Rustic wall mirror framed. Product Dimensions : 30.5 cm H x 25.4
+                            cm W <span>Rs.9,800</span></p>
+                        <div class="buy-links">
+                            <a href="/CheckOut.html" class="shop full">PRK. 8,700</a>
+                            <a href="/ProductInfo/wood10.pdf" target="_blank" class="shop down"><i class="fa-solid fa-download"
+                                    style="color: #ffffff;"></i>Downlaod</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card product" id="pro11">
+                    <div class="img">
+                        <img src="/imgs/wood11.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Dark brown rustic wall mirror framed. Product Dimensions : 30.5 cm H x 25.4
+                            cm W</p>
+                        <div class="buy-links">
+                            <a href="/CheckOut.html" class="shop full">PKR. 7,500</a>
+                            <a href="/ProductInfo/wood11.pdf" target="_blank" class="shop down"><i class="fa-solid fa-download"
+                                    style="color: #ffffff;"></i>Downlaod</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card product" id="pro12">
+                    <div class="img">
+                        <img src="/imgs/wood12.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Rectangle matte wooden framed mirror. Product Dimensions : 30.5 cm H x 25.4
+                            cm W</p>
+                        <div class="buy-links">
+                            <a href="/CheckOut.html" class="shop full">PKR. 6,600</a>
+                            <a href="/ProductInfo/wood12.pdf" target="_blank" class="shop down"><i class="fa-solid fa-download"
+                                    style="color: #ffffff;"></i>Downlaod</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Footer  -->
+    <section class="footer">
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4 class="ml">Info</h4>
+                <ul class="links">
+                    <li><a href="/AboutUs.html">About Us</a></li>
+                    <li><a href="/Reviews.html">Customer Reviews</a></li>
+                    <li><a href="/Login.html">Login</a></li>
+                    <li><a href="/SignUp.html">Sign Up</a></li>
+                    <li><a href="/GetAQuote.html">Get a Qoute</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="ml">Explore</h4>
+                <ul class="links">
+                    <li><a href="/livingroom.html">Living Room Mirror</a></li>
+                    <li><a href="/dressing.html">Dressing Room Mirror</a></li>
+                    <li><a href="/BathroomMirror.html">Bathroom Mirror</a></li>
+                    <li><a href="/BedroomMirror.html">Bedroom Mirror</a></li>
+                    <li><a href="/LedMirror.html">Led Mirror</a></li>
+                    <li><a href="/garden.html">Garden Mirror</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="ml">Legal</h4>
+                <ul class="links">
+                    <li><a href="#">Customer Agreement</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">GDPR</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Media Kit</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>
+                    Subscribe to our newsletter for a weekly dose
+                    of news, updates, helpful tips, and
+                    exclusive offers.
+                </p>
+                <form action="#">
+                    <input type="email" placeholder="Your email" required>
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/JavaScript/wooden.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirior - Login</title>
+    <link rel="stylesheet" href="/Css/Login.css">
+    <!-- animate.css for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- jQuery 3.6.0 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <!-- Bootstrap 5.0.2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap 5.0.2 JS (with jQuery) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Remixicon Font -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/imgs/logo.png" type="image/x-icon">
+
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Waypoints library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+    <!-- Font Awesome (Note: Integrity value is missing) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- jQuery UI 1.13.2 CSS -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+    <!-- jQuery UI 1.13.2 JS -->
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Header & Navigation -->
+
+
+    <header>
+        <h1>Miroir's Login</h1>
+        <div class="main">
+            <div class="wrapper">
+                <form action="#">
+                  <h2>Login</h2>
+                  <div class="input-field" id="emailError">
+                    <input type="text" id="emailINP" required onkeyup="email_vali()">
+                    <label>Enter your email</label>
+                  </div>
+                  <div class="input-field" id="pass">
+                    <input type="password" id="passwordInput" required onkeyup="pass_vali()">
+                    <label>Enter your password</label>
+                    <i class="ri-eye-off-fill" id="show" style="color: #ffffff;"></i>
+                    <i class="ri-eye-fill" id="hide" style="color: #ffffff;"></i>
+                  </div>
+                  <div class="forget">
+                    <label for="remember">
+                      <input type="checkbox" id="remember">
+                      <p>Remember me</p>
+                    </label>
+                    <a href="#">Forgot password?</a>
+                  </div>
+                  <input type="submit" value="Log In" id="sub">
+                  <div class="register">
+                    <p>Don't have an account? <a href="#">Register</a></p>
+                  </div>
+                </form>
+              </div>                
+        </div>
+    </header>
+
+
+
+    <script src="/JavaScript/login.js"></script>
+</body>
+
+</html>

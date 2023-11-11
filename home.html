@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirior - Home</title>
+    <link rel="stylesheet" href="/Css/style.css">
+
+
+    <!-- animate.css for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- jQuery 3.6.0 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <!-- Bootstrap 5.0.2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap 5.0.2 JS (with jQuery) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Remixicon Font -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/imgs/logo.png" type="image/x-icon">
+
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Waypoints library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+    <!-- Font Awesome (Note: Integrity value is missing) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- jQuery UI 1.13.2 CSS -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+    <!-- jQuery UI 1.13.2 JS -->
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+
+</head>
+
+<body>
+
+    <!-- Header & Navigation -->
+
+
+    <div class="chat">
+        <i class="ri-chat-1-fill"></i>
+    </div>
+    <a href="#nav" class="chat" id="goUp">
+        <i class="ri-arrow-up-double-line"></i>
+    </a>
+
+    <header>
+        <div class="f-deal">
+            <form class="d-box">
+                <img src="/imgs/deal.jpg" alt="">
+                <div class="d-des">
+                    <div class="close">
+                        <i class="ri-close-circle-fill" id="close"></i>
+                    </div>
+                    <h4>Get Discount <br> &nbsp;&nbsp;&nbsp; <span>50%</span> Off</h4>
+                    <p>Our 50% wooden mirror combines natural elegance and style, creating a timeless addition to your
+                        space. Experience the beauty of wood and design.</p>
+                    <input type="email" name="" id="d-email" placeholder="Enter Email" required>
+                    <input type="submit" value="Subscribe" id="d-submit">
+                </div>
+            </form>
+        </div>
+        <div class="chat-box">
+            <div class="chat-header">
+                <h4>Miroi'r</h4>
+                <i class="ri-whatsapp-line whatsapp"></i>
+            </div>
+            <div class="chat-text-up">
+                <div class="chat-text">
+                    Hello, <br>
+                    How can i help you?
+                </div>
+            </div>
+            <a href="https://api.whatsapp.com/send?phone=3353946421" target="_blank" class="chat-msg">
+                <div class="msg">Chat on whatsapp</div>
+            </a>
+        </div>
+
+        <div class="cursor"></div>
+        <div class="sup-up">
+            <nav class="navbar navbar-expand-lg navbar-dark" id="uper-navi">
+                <div class="container-fluid" id="up-cont-navi">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active bold visi" aria-current="page" href="/home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active bold visi" href="/AboutUs.html">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link bold dropdown-toggle active visi" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Mirror Category
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item visi" href="/livingroom.html">Living room mirrors</a>
+                                    </li>
+                                    <li><a class="dropdown-item visi" href="/dressing.html">Dressing room mirrors</a>
+                                    </li>
+                                    <li><a class="dropdown-item visi" href="/BedroomMirror.html">Bedroom room
+                                            mirrors</a></li>
+                                    <li><a class="dropdown-item visi" href="/BathroomMirror.html">Bathroom room
+                                            mirrors</a></li>
+                                    <li><a class="dropdown-item visi" href="/garden.html">Garden mirrors</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link bold visi dropdown-toggle active" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Material Category
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li class="visi"><a class="dropdown-item visi" href="/WoodenFramed.html">Wooden
+                                            framed</a></li>
+                                    <li class="visi"><a class="dropdown-item visi" href="/MetalMirror.html">Metal
+                                            bordered</a></li>
+                                    <li class="visi"><a class="dropdown-item visi" href="/LedMirror.html">LED
+                                            mirrors</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item visi">
+                                <a class="nav-link bold active visi" style="z-index: 111;"
+                                    href="/Location.html">Location</a>
+                            </li>
+                            <li class="nav-item visi">
+                                <a class="nav-link bold active visi" href="/contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <form id="search">
+                            <div class="search visi">
+                                <i class="ri-search-2-line"></i>
+                                <input type="search" class="visi" name="" id="auto"
+                                    placeholder="Search by room, style, and color">
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <div class="up">
+                <img src="/imgs/logo.png" id="s">
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light sticky" id="nav">
+            <div class="container-fluid" id="head">
+                <a class="navbar-brand" href="#" id="logo"><img src="/imgs/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <span class="nav-link web-des" href="#">
+                                <div class="phone-des">
+                                    <span>Phone</span>
+                                    <i class="ri-phone-fill">
+                                    </i>
+                                </div>
+                                <span class="val">+92 3140314548</span>
+                            </span>
+                        </li>
+                        <li class="nav-item">
+                            <span class="nav-link web-des" href="#">
+                                <div class="phone-des">
+                                    <span>Address</span>
+                                    <i class="ri-map-pin-line"></i>
+                                </div>
+                                <span class="val" id="Address">D-4,Block H, NN,Karachi.</span>
+                            </span>
+                        </li>
+                    </ul>
+                    <form id="search">
+                        <div class="search visi">
+                            <i class="ri-search-2-line"></i>
+                            <input type="search" class="visi" name="" id="auto_one"
+                                placeholder="Search by room, style, and color">
+
+                        </div>
+                    </form>
+                    <a href="/GetAQuote.html" id="qoute">Get a Qoute <i class="ri-arrow-right-double-line"></i></a>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark" id="navi">
+            <div class="container-fluid sticky" id="cont-navi">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active bold" aria-current="page" href="/home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active bold" href="/AboutUs.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link bold dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Mirror Category
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/livingroom.html">Living room mirrors</a></li>
+                                <li><a class="dropdown-item" href="/dressing.html">Dressing room mirrors</a></li>
+                                <li><a class="dropdown-item" href="/BedroomMirror.html">Bedroom room mirrors</a></li>
+                                <li><a class="dropdown-item" href="/BathroomMirror.html">Bathroom room mirrors</a></li>
+                                <li><a class="dropdown-item" href="/garden.html">Garden mirrors</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link bold dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Material Category
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/WoodenFramed.html">Wooden framed</a></li>
+                                <li><a class="dropdown-item" href="/MetalMirror.html">Metal bordered</a></li>
+                                <li><a class="dropdown-item" href="/LedMirror.html">LED mirrors</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active bold" href="/gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active bold" href="/Login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active bold" href="/SignUp.html">Sign Up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active bold" href="#show-loca">Location</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active bold" href="/contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- hero  -->
+
+        <div class="hero">
+            <div class="hero-box">
+                <h2><span id="l">M</span>iroir, Pakistan's largest online mirror shop</h2>
+                <a href="#row1">Shop now</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main  -->
+
+    <main>
+        <section id="sec1">
+            <div class="row" id="row1">
+                <div class="card card-bord" style="border: none;" id="firstCard">
+                    <div class="img">
+                        <img src="/imgs/pro2.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Living Rooms</h5>
+                        <p class="card-text">With hundreds of mirrors available you are sure to find the perfect
+                            mirrorfor your living room.</p>
+                        <a href="/livingroom.html" class="shop W-full">Living Room mirrors</a>
+                    </div>
+                </div>
+                <div class="card card-bord" style="border: none;" id="secondC">
+                    <div class="img">
+                        <img src="/imgs/bath7.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Bathrooms</h5>
+                        <p class="card-text">Elevate your bathroom's style with a chic, long mirror from our diverse
+                            collection.</p>
+                        <a href="/BathroomMirror.html" class="shop W-full">Bathroom mirrors</a>
+                    </div>
+                </div>
+                <div class="card card-bord" style="border: none;" id="thirdCard">
+                    <div class="img">
+                        <img src="/imgs/blue2.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Led Mirror</h5>
+                        <p class="card-text"> Illuminate your reflection with modern elegance and brilliant
+                            functionality.
+
+                        </p>
+                        <a href="/LedMirror.html" id="half" class="shop W-full">Led mirrors</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="row2">
+
+                <div class="card card-bord" style="border: none;" id="sixCard">
+                    <div class="img">
+                        <img src="/imgs/Large_box6.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Large Mirrors</h5>
+                        <p class="card-text">Find the perfect feature from our collection of decorative mirrors.</p>
+                        <a href="/LargeMirrors.html" class="shop W-full">Garden mirrors</a>
+                    </div>
+
+                </div>
+
+                <div class="card card-bord" style="border: none;" id="fifthCard">
+                    <div class="img">
+                        <img src="/imgs/bdm3.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="caritle">Bedroom</h5>
+                        <p class="card-text">Add style and depth to your personal oasis with our exquisite bedroom
+                            mirror collection.</p>
+                        <a href="/BedroomMirror.html" class="shop W-full">Bedroom mirrors</a>
+                    </div>
+
+                </div>
+                <div class="card card-bord" style="border: none;" id="fourthCard">
+                    <div class="img">
+                        <img src="/imgs/gardenFront1.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Garden</h5>
+                        <p class="card-text">Discover a beautiful garden mirror to spruce up your outdoor space.</p>
+                        <a href="/garden.html" class="shop W-full">Garden mirrors</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <div class="row ani" id="alert-row">
+            <div class="alert" role="alert" id="view">
+                <div class="alert-des">
+                    <h2>Popular Mirror Styles</h2>
+                    <p>We have many styles and trends to suit any taste. From Art
+                        Deco to Antique in a range of shapes and colours.</p>
+                </div>
+                <a href="/LedMirror.html">View all</a>
+            </div>
+        </div>
+        <section class="padding_0">
+            <div class="row" id="row3">
+                <div class="card cards card-bord" style="border: none;" id="sevenCard">
+                    <div class="img mar">
+                        <img src="/imgs/style1.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Starburst All Glass Stylised Full Length Dress Mirror 170 x 79 CM</p>
+                        <h5 class="card-title">Rs. 4999</h5>
+                        <div class="buy-links">
+                            <a href="/CheckOut.html" class="shop full" style="text-align: center;">Buy now</a>
+                            <a href="/ProductInfo/style1.pdf" target="_blank" class="shop down"><i
+                                    class="fa-solid fa-download" style="color: #ffffff;"></i>Download</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card cards card-bord" style="border: none;" id="eightCard">
+                    <div class="img mar">
+                        <img src="/imgs/style2.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">The Arcus - Frameless Arched Leaner / Wall Mirror 74" X 47" (190CM X 120CM)
+                        </p>
+                        <h5 class="card-title">Rs. 7499</h5>
+                        <div class="buy-links">
+                            <a href="/CheckOut.html" class="shop full" style="text-align: center;">Buy now</a>
+                            <a href="/ProductInfo/style2.pdf" target="_blank" class="shop down"><i
+                                    class="fa-solid fa-download" style="color: #ffffff;"></i>Download</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card cards card-bord" style="border: none;" id="nineCard">
+                    <div class="img mar">
+                        <img src="/imgs/style3.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Find the perfect feature from our collection of decorative mirrors.</p>
+                        <h5 class="card-title">Rs. 5499</h5>
+                        <div class="buy-links">
+                            <a href="/CheckOut.html" class="shop full" style="text-align: center;">Buy now</a>
+                            <a href="/ProductInfo/style3.pdf" target="_blank" class="shop down"><i
+                                    class="fa-solid fa-download" style="color: #ffffff;"></i>Downlaod</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="sec4">
+            <div class="shop-color">
+                <div class="col-img">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/imgs/bg4-transformed.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/imgs/bg3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/imgs/slider3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-des">
+                    <div class="circle" id="circle1">
+                        <p class="para">Reflection reveals our true selves.</p>
+                    </div>
+                    <h2>Get 50% off on Bathroom Mirror's</h2>
+                    <p id="time"></p>
+                    <a href="/BathroomMirror.html">Shop now</a>
+                </div>
+            </div>
+        </section>
+        <section class="padding_0">
+            <div class="row" id="row4">
+                <div class="feed-back" style="padding-inline: 3vmax;">
+                    <div class="feed-des">
+                        <h2>In need of some inspiration?</h2>
+                        <p>Get inspired by our wonderful customers! From bedrooms to bathrooms to home gyms, our mirrors
+                            get used everywhere, and we love seeing them in your homes.</p>
+                    </div>
+                    <div class="rev">
+                        <div class="stars">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <a href="/Reviews.html">Over 2,500 Reviews, Rated Excellent</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row rev-ani" id="gal">
+                <div class="rev-cont">
+                    <div class="rev-box">
+                        <div class="rev-img">
+                            <img src="/imgs/profile1.jpg" alt="">
+                        </div>
+                        <div class="rev-des">
+                            <h5>Ali</h5>
+                            <p>I'm thrilled with the mirrors from Miroir! They've transformed my space beautifully.
+                                Thank you!</p>
+                            <div class="star">
+                                <i class="ri-star-s-fill"></i>
+                                <i class="ri-star-s-fill"></i>
+                                <i class="ri-star-s-fill"></i>
+                                <i class="ri-star-s-fill"></i>
+                                <i class="ri-star-s-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rev-box">
+                        <div class="rev-img">
+                            <img src="/imgs/profile2.jpg" alt="">
+                        </div>
+                        <div class="rev-des">
+                            <h5>Sara</h5>
+                            <p>Miroir's mirrors added a touch of elegance to my home. Exceptional quality and service! ❤
+                            </p>
+                            <div class="star">
+                                <i class="ri-star-s-fill"></i>
+                                <i class="ri-star-s-fill"></i>
+                                <i class="ri-star-s-fill"></i>
+                                <i class="ri-star-s-fill"></i>
+                                <i class="ri-star-s-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rev-box">
+                        <div class="rev-img">
+                            <img src="/imgs/profile3.jpg" alt="">
+                        </div>
+                        <div class="rev-des">
+                            <h5>Ahmed</h5>
+                            <p>Miroir's mirrors transformed my space effortlessly. Elegant and top-notch quality!</p>
+                            <div class="star">
+                                <i class="ri-star-s-fill"></i>
+                                <i class="ri-star-s-fill"></i>
+                                <i class="ri-star-s-fill"></i>
+                                <i class="ri-star-s-fill"></i>
+                                <i class="ri-star-s-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gal-animate" id="gal">
+                <div class="gal-img">
+                    <div class="zoom-in">
+                        <img src="/imgs/blue1.jpg" alt="">
+                    </div>
+                    <div class="zoom-in">
+                        <img src="/imgs/bdm2.jpg" alt="">
+                    </div>
+                    <div class="zoom-in">
+                        <img src="/imgs/bath1.jpg" alt="">
+                    </div>
+                    <div class="zoom-in">
+                        <img src="/imgs/pro2.jpg" alt="">
+                    </div>
+                    <div class="zoom-in">
+                        <img src="/imgs/dress2.jpg" alt="">
+                    </div>
+                </div>
+                <a href="/gallery.html">View the Gallery</a>
+            </div>
+        </section>
+        <section style="padding: 3vmax;" id="slider2">
+            <div class="shop-color">
+                <div class="col-img">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/imgs/size.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/imgs/bg3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/imgs/slider3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-des">
+                    <div class="circle" id="circle2">
+                        <p class="para">Mirrors reflect inner beauty.</p>
+                    </div>
+                    <h2>Find your perfect size mirror for any room</h2>
+                    <p>When choosing your ideal mirror, sizing is crucial. At Mirior, we have an array of small
+                        and large mirrors to cater for all spaces and visions. Our product selection has standing and
+                        wall mirror sizes ranging from as small as 1ft, all the way up to to 7ft.
+
+                    </p>
+                    <a href="#">Shop By Size</a>
+                </div>
+            </div>
+        </section>
+        <section id="row6">
+            <h1>The Pakistan's Leading Online Mirror Shop</h1>
+            <p>Miroir is the Pakistan's top online destination for mirrors. Whatever size, colour or style you're
+                looking for to complete your living space, you are sure to discover it here. From ornate and classic
+                styles for your mantelpiece, to large wall mirrors and more, explore our entire collection to find the
+                perfect mirror.</p>
+        </section>
+        <section id="no-pad" class="padding_0">
+            <div class="row" id="row7">
+                <div class="info-box" id="tenCard">
+                    <div class="info-body">
+                        <h5 class="info-title"><i class="ri-brush-line"></i></h5>
+                        <h6 class="info-subtitle">Don’t forget your mirror fixings </h6>
+                        <p class="info-text">In order to ensure your new addition is secured safely to your walls, it’s
+                            important that you remember to obtain the correct fixtures and fittings for your new mirror!
+                            We have an extensive range of fittings suitable for an array of mirror types.
+
+                        </p>
+                        <a href="#" class="info-link">Shop Fixing <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="info-box" style="justify-content: space-around;" id="elevenCard">
+                    <div class="info-body">
+                        <h5 class="info-title"><i class="ri-truck-line"></i></h5>
+                        <h6 class="info-subtitle">Fast, Free & Fully Insured Pakistan Delivery on all full length
+                            mirrors
+                        </h6>
+                        <p class="info-text">Mirrors by MirrorOutlet provide free & fully insured nationwide delivery,
+                            ensuring that your mirror arrives safely and quickly.
+
+                        </p>
+                        <a href="#" class="info-link">Delivery Information <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="info-box" id="extra" style="justify-content: space-around;">
+                    <div class="info-body">
+                        <h5 class="info-title"><i class="ri-phone-line"></i></h5>
+                        <h6 class="info-subtitle">Get in touch with Mirroir today</h6>
+                        <p class="info-text">If you would like more information on any of the mirrors that we sell, or
+                            if you would like advice on a mirror to best suit your space, get in touch with our team
+                            today. Get in touch and we will be happy to answer any questions or queries you have.
+                            Alternatively, you can contact us online for a call back at your request.
+
+                        </p>
+                        <a href="/Contact.html" class="info-link">Contact Us <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="row" id="location">
+            <div class="loca-des" id="loca-desId" style="padding-left: 2rem;">
+                <span class="rela"></span>
+                <h1>Visit us <span>today</span></h1>
+                <div class="loca-info">
+                    <div class="loca-box">
+                        <div class="infos">
+                            <i class="ri-map-pin-line"></i>
+                            <div class="infos-info">
+                                <h5>FIND US</h4>
+                                    <p>D-4,Block H, NN,Karachi.
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="infos">
+                            <i class="ri-timer-line"></i>
+                            <div class="infos-info">
+                                <h5>WORKING HOURS</h4>
+                                    <p>Mon-Fri: 8 AM - 5 PM</p>
+                                    <p>Sat-Sun: 8 AM - 2 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="loca-box">
+                        <div class="infos">
+                            <i class="ri-phone-line"></i>
+                            <div class="infos-info">
+                                <h5>CALL US</h4>
+                                    <p>+92 3140314548</p>
+                            </div>
+                        </div>
+                        <div class="infos">
+                            <i class="ri-mail-line"></i>
+                            <div class="infos-info">
+                                <h5>WRITE TO US</h4>
+                                    <a href="mailto:shayanalam8931@gmail.com" style="color: #000;">Info@miroir.com</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <iframe id="show-loca" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=24.939097204496782,67.0449694537183&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        </div>
+    </main>
+
+
+    <!-- Footer  -->
+    
+    <section class="footer">
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4 class="ml">Info</h4>
+                <ul class="links">
+                    <li><a href="/AboutUs.html">About Us</a></li>
+                    <li><a href="/Reviews.html">Customer Reviews</a></li>
+                    <li><a href="/Login.html">Login</a></li>
+                    <li><a href="/SignUp.html">Sign Up</a></li>
+                    <li><a href="/GetAQuote.html">Get a Qoute</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="ml">Explore</h4>
+                <ul class="links">
+                    <li><a href="/livingroom.html">Living Room Mirror</a></li>
+                    <li><a href="/dressing.html">Dressing Room Mirror</a></li>
+                    <li><a href="/BathroomMirror.html">Bathroom Mirror</a></li>
+                    <li><a href="/BedroomMirror.html">Bedroom Mirror</a></li>
+                    <li><a href="/LedMirror.html">Led Mirror</a></li>
+                    <li><a href="/garden.html">Garden Mirror</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="ml">Legal</h4>
+                <ul class="links">
+                    <li><a href="#">Customer Agreement</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">GDPR</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Media Kit</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>
+                    Subscribe to our newsletter for a weekly dose
+                    of news, updates, helpful tips, and
+                    exclusive offers.
+                </p>
+                <form action="#">
+                    <input type="email" placeholder="Your email" required>
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/JavaScript/script.js"></script>
+</body>
+
+</html>
